@@ -79,7 +79,7 @@ void loop() {
 
   wakeCounter = 0; /* カウンタクリア */
   /* 約56s待ち */
-  while (wakeCounter < 7) {
+  while (7 > wakeCounter) {
     goToSleep();
   }
 }
